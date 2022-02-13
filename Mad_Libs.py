@@ -24,11 +24,6 @@ def main():
     elif userChoice == 'happy':
         happy(user_animal, user_location, user_verb)
 
-    play_again = input("Thanks for playing. Want to play again? (y/n) ")
-    if play_again == 'y':
-        main()
-    else:
-        print("bye")
 
 
 
